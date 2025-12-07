@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ngrok/ngrok": "^1.6.0",
+    "@prisma/client": "^6.19.0",
+    "axios": "^1.13.2",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "neo4j-driver": "~5.28.0",
+    "nodemailer": "^7.0.11",
+    "pg": "^8.16.3",
+    "prisma": "^6.19.0",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
